@@ -1,2 +1,3 @@
-# magento2
-Integração Shipping Kangu Magento 2.0
+Magento 2 Kangu Shipping Method
+
+Integra o calculo de frete Kangu a sua loja Magento 2.x

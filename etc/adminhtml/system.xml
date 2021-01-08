@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+	<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Config/etc/system_file.xsd">
+		<system>
+			<section id="carriers" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+				<group id="kangu" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
+					<label>Kangu Shipping</label>
+					<field id="active" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="0">
+						<label>Enabled</label>
+						<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+					</field>
+					
+					<field id="token" translate="label" type="text" sortOrder="4" showInDefault="1" showInWebsite="1" showInStore="0">
+						<label>Access Token</label>
+					</field>
+					
+					<field id="title" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
+						<label>Title</label>
+					</field>
+		
+					<field id="defaultwidth" translate="label" type="text" sortOrder="4" showInDefault="1" showInWebsite="1" showInStore="0">
+						<label>Default Package Width</label>
+						<validate>validate-number validate-zero-or-greater</validate>
+					</field>
+					
+					<field id="defaultheight" translate="label" type="text" sortOrder="4" showInDefault="1" showInWebsite="1" showInStore="0">
+						<label>Default Package Height</label>
+						<validate>validate-number validate-zero-or-greater</validate>
+					</field>
+					
+					<field id="defaultlength" translate="label" type="text" sortOrder="4" showInDefault="1" showInWebsite="1" showInStore="0">
+						<label>Default Package Length</label>
+						<validate>validate-number validate-zero-or-greater</validate>
+					</field>
+				</group>
+			</section>
+		</system>
+	</config>

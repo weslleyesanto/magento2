@@ -1,0 +1,13 @@
+"Bussiness Days","Dias Úteis",
+"Bussiness Days","Dias Úteis",
+"Regular Delivery","Entrega Normal",
+"Express Delivery","Entrega Expressa",
+"No packages found for shipment", "Nenhum volume para transportar encontrado",
+"Unable to print label. Try printing it on our website:", "Erro ao imprimir etiqueta. Tente imprimi-la no nosso website:"
+"No access token found, please add a valid token on your configurations","Token de acesso não encontrado. Adicione um token válido nas suas configurações"
+"Unable to create shipping. Try shpping through our website:","Não foi possível criar o transporte. Tente criar pelo nosso portal:"
+"Default Package Width","Largura Padrão do Pacote"
+"Default Package Height","Altura Padrão do Pacote"
+"Default Package Length","Comprimento Padrão do Pacote"
+"Title","Título"
+"Access Token","Token de Acesso"
