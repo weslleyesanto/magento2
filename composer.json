@@ -1,5 +1,5 @@
 {
-  "name": "kangu/kangu-magento2",
+  "name": "gokangu/magento2",
   "description": "Kangu Shipping Method for Magento 2.x",
   "type": "magento2-module",
   "version": "1.0.3",
@@ -12,8 +12,8 @@
   },
   "authors": [
     {
-      "name": "Kangu",
-      "email": "contato@kangu.com.br",
+      "name": "Developer Kangu",
+      "email": "ti@kangu.com.br",
       "homepage": "https://www.kangu.com.br/",
       "role": "Developer"
     }
