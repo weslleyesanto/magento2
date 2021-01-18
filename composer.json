@@ -25,5 +25,7 @@
     "psr-4": {
       "Kangu\\Shipping\\": ""
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
